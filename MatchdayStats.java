@@ -6,6 +6,7 @@ public class MatchdayStats {
       boolean gameToday = true;
       int numPlayers = 8;
       double averageMatchLength = 1.30;
+      boolean ballard = true;
       System.out.print("Who did Ballard play today? ");
       Scanner scan = new Scanner(System.in);
       teamPlayed = scan.nextLine();
