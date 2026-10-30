@@ -15,6 +15,10 @@ public class ProjectEuler {
    }
    
    public static int problem2() {
+      int num = 0;
+      int sum = 0;
+      while (num <= 400000)
+         if 
       return 0;
    }
    
