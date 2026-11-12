@@ -12,6 +12,6 @@ public class FindMinimum {
    }
    
    public static void main(String[] args) {
-      System.out.print("Result of findMin = " + findMin());
+      System.out.print("Result of findMin= " + findMin());
    }
 }
