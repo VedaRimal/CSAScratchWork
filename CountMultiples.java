@@ -2,7 +2,7 @@ public class CountMultiples {
    public static int countMultiples(int largestNum, int numMultiples) {
       int count = 0;
       for(int i = 1; i <= largestNum; i++) {
-         if(largestNum % 2 == 0 && (largestNum % 2) % numMultiples == 0) {
+         if((largestNum % numMultiples) == 0) {
             count++;
          }
       }
